@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class Conexao {
     
     //Parâmetros para Conexão
-    private static final String URL = "jdbc:postgresql://localhost:5432/DB_REIESPUMA";
-    private static final String USUARIO = "postgres";
-    private static final String SENHA = "1004";
+    private static final String URL = "jdbc:postgresql://localhost:5432/[SUA DATABASE AQUI]";
+    private static final String USUARIO = "[SEU USUÁRIO AQUI]";
+    private static final String SENHA = "[SUA SENHA AQUI]";
     
     public static Connection conectar(){
         try {
